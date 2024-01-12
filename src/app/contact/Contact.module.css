@@ -121,3 +121,161 @@
         padding: 5px 0;
     }
 }
+
+@media screen and (max-width: 640px) {
+    .main {
+      margin: 0;
+      padding: 0;
+  }
+  
+  
+  .h1 {
+    height: 100%;
+    flex-shrink: 0;
+    background: linear-gradient(180deg, #FFECD5 0%, rgba(255, 244, 231, 0.80) 50%, white 100%);
+  }
+  
+  .hometitle {
+    position:relative;
+    margin:0;
+    padding-left: 4%;
+    padding-top: 2%;
+    color: #000;
+    font-family: Inter;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 100;
+    line-height: normal;
+  }
+  
+    .tree {
+      z-index: -1;
+      position: fixed;
+      bottom: 10%;
+      left: 50%;
+      max-width:85%;
+      min-width:65%;
+      height: 60%;
+      transform: translateX(-50%) translateY(7%);
+  }
+  
+  .kyotou {
+    position: fixed;
+    bottom:82%;
+    left: 85%;
+    width: 10%;
+    height: 7%;
+  }
+  
+  .sumitomo {
+    position: fixed;
+    bottom:83%;
+    left: 75%;
+    width: 9%;
+    height: 4%;
+  }
+  
+  .lignoFM {
+    position: fixed;
+    top:12%;
+    left: 60%;
+    width:20%;
+    height:8%;
+  }
+  
+  .about {
+    position: fixed;
+    text-align: center;
+    color: #000;
+    background:rgba(157, 250, 113, 0.74);;
+    width: 10vh;
+    height: 10vh;
+    font-size: 1.8vh;
+    border-radius: 50%;
+    line-height: 1.8vh;
+    transform:translateX(-4vh) translateY(22vh);
+  }
+  
+  .about:hover {
+    opacity:0.7;
+  }
+  
+  .amateur {
+    position:fixed;
+    color: #000;
+    background:rgba(157, 250, 113, 0.74);;
+    width: 10vh;
+    height: 10vh;
+    font-size: 1.8vh;
+    border-radius: 50%;
+    line-height: 1.8vh;
+    transform: translateX(-13vh) translateY(29vh);
+  }
+  
+  .amateur:hover {
+    opacity:0.7;
+  }
+  
+  .members {
+    position: fixed;
+    color: #000;
+    text-align: center;
+    background:rgba(157, 250, 113, 0.74);;
+    width: 10vh;
+    height: 10vh;
+    font-size: 1.8vh;
+    border-radius: 50%;
+    line-height: 1.8vh;
+    transform: translateX(6vh) translateY(40vh);
+  }
+  
+  .members:hover {
+    opacity:0.7;
+  }
+  
+  .gallery {
+    position: fixed;
+    color: #000;
+    background:rgba(157, 250, 113, 0.74);;
+    width: 10vh;
+    height: 10vh;
+    font-size: 1.8vh;
+    border-radius: 50%;
+    line-height: 1.8vh;
+    transform: translateX(5vh) translateY(29vh);
+  }
+  
+  .gallery:hover {
+    opacity:0.7;
+  }
+  
+  .contact {
+    position: fixed;
+    color: #000;
+    background:rgba(157, 250, 113, 0.74);;
+    width: 10vh;
+    height: 10vh;
+    font-size: 1.8vh;
+    border-radius: 50%;
+    line-height: 1.8vh;
+    transform: translateX(-14vh) translateY(40vh);
+  }
+  
+  .contact:hover {
+    opacity:0.7;
+  }
+  
+  .contactLink {
+    text-decoration: none;
+  }
+  
+  .contactLink, .contactLink:visited {
+    color: #000;
+  }
+    
+    .content {
+      width: 90%;
+      margin: 0 auto;
+      text-align: center;
+    }
+  }
