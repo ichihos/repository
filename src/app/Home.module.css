@@ -172,11 +172,11 @@
   .tree {
     z-index: -1;
     position: fixed;
-    bottom: 20%;
+    bottom: 10%;
     left: 50%;
-    max-width: 70%;
+    max-width:85%;
     min-width:65%;
-    height: 50%;
+    height: 70%;
     transform: translateX(-50%) translateY(7%);
 }
 
@@ -209,12 +209,12 @@
   text-align: center;
   color: #000;
   background:rgba(157, 250, 113, 0.74);;
-  width: 8vh;
-  height: 8vh;
-  font-size: 1.5vh;
+  width: 10vh;
+  height: 10vh;
+  font-size: 1.8vh;
   border-radius: 50%;
-  line-height: 1.5vh;
-  transform:translateX(-3vh) translateY(20vh);
+  line-height: 1.8vh;
+  transform:translateX(-4vh) translateY(20vh);
 }
 
 .about:hover {
@@ -225,12 +225,12 @@
   position:fixed;
   color: #000;
   background:rgba(157, 250, 113, 0.74);;
-  width: 8vh;
-  height: 8vh;
-  font-size: 1.5vh;
+  width: 10vh;
+  height: 10vh;
+  font-size: 1.8vh;
   border-radius: 50%;
-  line-height: 1.5vh;
-  transform: translateX(-10vh) translateY(28vh);
+  line-height: 1.8vh;
+  transform: translateX(-12vh) translateY(28vh);
 }
 
 .amateur:hover {
@@ -242,12 +242,12 @@
   color: #000;
   text-align: center;
   background:rgba(157, 250, 113, 0.74);;
-  width: 8vh;
-  height: 8vh;
-  font-size: 1.5vh;
+  width: 10vh;
+  height: 10vh;
+  font-size: 1.8vh;
   border-radius: 50%;
-  line-height: 1.5vh;
-  transform: translateX(6vh) translateY(38vh);
+  line-height: 1.8vh;
+  transform: translateX(8vh) translateY(38vh);
 }
 
 .members:hover {
@@ -258,11 +258,11 @@
   position: fixed;
   color: #000;
   background:rgba(157, 250, 113, 0.74);;
-  width: 8vh;
-  height: 8vh;
-  font-size: 1.5vh;
+  width: 10vh;
+  height: 10vh;
+  font-size: 1.8vh;
   border-radius: 50%;
-  line-height: 1.5vh;
+  line-height: 1.8vh;
   transform: translateX(4vh) translateY(28vh);
 }
 
@@ -274,12 +274,12 @@
   position: fixed;
   color: #000;
   background:rgba(157, 250, 113, 0.74);;
-  width: 8vh;
-  height: 8vh;
-  font-size: 1.5vh;
+  width: 10vh;
+  height: 10vh;
+  font-size: 1.8vh;
   border-radius: 50%;
-  line-height: 1.5vh;
-  transform: translateX(-12vh) translateY(38vh);
+  line-height: 1.8vh;
+  transform: translateX(-17vh) translateY(38vh);
 }
 
 .contact:hover {
