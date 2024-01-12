@@ -180,7 +180,7 @@
     left: 50%;
     max-width: 70%;
     min-width:65%;
-    height: 60%;
+    height: 50%;
     transform: translateX(-50%) translateY(7%);
 }
 
@@ -189,7 +189,7 @@
   bottom:82%;
   left: 85%;
   width: 10%;
-  height: 9%;
+  height: 7%;
 }
 
 .sumitomo {
@@ -197,15 +197,15 @@
   bottom:83%;
   left: 75%;
   width: 9%;
-  height: 6%;
+  height: 4%;
 }
 
 .lignoFM {
   position: fixed;
-  top:10vh;
-  left: 25vh;
-  width:14vh;
-  height:7vh;
+  top:12%;
+  left: 60%;
+  width:20%;
+  height:8%;
 }
 
 .about {
@@ -217,7 +217,7 @@
   font-size: 1.5vh;
   border-radius: 50%;
   line-height: 1.5vh;
-  transform: translateY(18vh);
+  transform: translateY(20vh);
 }
 
 .about:hover {
@@ -232,7 +232,7 @@
   font-size: 1.5vh;
   border-radius: 50%;
   line-height: 1.5vh;
-  transform: translateX(-3vh) translateY(28vh);
+  transform: translateX(0vh) translateY(28vh);
 }
 
 .amateur:hover {
@@ -247,7 +247,7 @@
   font-size: 1.5vh;
   border-radius: 50%;
   line-height: 1.5vh;
-  transform: translateX(5vh) translateY(40vh);
+  transform: translateX(7vh) translateY(38vh);
 }
 
 .members:hover {
@@ -262,7 +262,7 @@
   font-size: 1.5vh;
   border-radius: 50%;
   line-height: 1.5vh;
-  transform: translateX(3vh) translateY(28vh);
+  transform: translateX(0vh) translateY(28vh);
 }
 
 .gallery:hover {
@@ -277,7 +277,7 @@
   font-size: 1.5vh;
   border-radius: 50%;
   line-height: 1.5vh;
-  transform: translateX(-5vh) translateY(40vh);
+  transform: translateX(-7vh) translateY(38vh);
 }
 
 .contact:hover {
