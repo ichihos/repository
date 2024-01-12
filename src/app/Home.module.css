@@ -80,7 +80,6 @@
   font-size: 3vh;
   border-radius: 50%;
   line-height: 3vh;
-  overflow: hidden;
   transform: translateX(-30%) translateY(120%);
 }
 
@@ -95,7 +94,6 @@
   font-size: 3vh;
   border-radius: 50%;
   line-height: 3vh;
-  overflow: hidden;
   transform: translateX(20%) translateY(250%);
 }
 
@@ -110,7 +108,6 @@
   font-size: 3vh;
   border-radius: 50%;
   line-height: 3vh;
-  overflow: hidden;
   transform: translateX(30%) translateY(120%);
 }
 
@@ -125,7 +122,6 @@
   font-size: 3vh;
   border-radius: 50%;
   line-height: 3vh;
-  overflow: hidden;
   transform: translateX(-20%) translateY(250%);
 }
 
@@ -209,15 +205,16 @@
 }
 
 .about {
+  position: fixed;
+  text-align: center;
   color: #000;
-  position: relative;
   background:rgba(157, 250, 113, 0.74);;
   width: 8vh;
   height: 8vh;
   font-size: 1.5vh;
   border-radius: 50%;
   line-height: 1.5vh;
-  transform: translateY(20vh);
+  transform:translateX(-3vh) translateY(20vh);
 }
 
 .about:hover {
@@ -225,6 +222,7 @@
 }
 
 .amateur {
+  position:fixed;
   color: #000;
   background:rgba(157, 250, 113, 0.74);;
   width: 8vh;
@@ -232,7 +230,7 @@
   font-size: 1.5vh;
   border-radius: 50%;
   line-height: 1.5vh;
-  transform: translateX(0vh) translateY(28vh);
+  transform: translateX(-10vh) translateY(28vh);
 }
 
 .amateur:hover {
@@ -240,14 +238,16 @@
 }
 
 .members {
+  position: fixed;
   color: #000;
+  text-align: center;
   background:rgba(157, 250, 113, 0.74);;
   width: 8vh;
   height: 8vh;
   font-size: 1.5vh;
   border-radius: 50%;
   line-height: 1.5vh;
-  transform: translateX(7vh) translateY(38vh);
+  transform: translateX(6vh) translateY(38vh);
 }
 
 .members:hover {
@@ -255,6 +255,7 @@
 }
 
 .gallery {
+  position: fixed;
   color: #000;
   background:rgba(157, 250, 113, 0.74);;
   width: 8vh;
@@ -262,7 +263,7 @@
   font-size: 1.5vh;
   border-radius: 50%;
   line-height: 1.5vh;
-  transform: translateX(0vh) translateY(28vh);
+  transform: translateX(4vh) translateY(28vh);
 }
 
 .gallery:hover {
@@ -270,6 +271,7 @@
 }
 
 .contact {
+  position: fixed;
   color: #000;
   background:rgba(157, 250, 113, 0.74);;
   width: 8vh;
@@ -277,7 +279,7 @@
   font-size: 1.5vh;
   border-radius: 50%;
   line-height: 1.5vh;
-  transform: translateX(-7vh) translateY(38vh);
+  transform: translateX(-12vh) translateY(38vh);
 }
 
 .contact:hover {
