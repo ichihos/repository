@@ -146,3 +146,150 @@
     margin: 0 auto;
     text-align: center;
   }
+
+@media screen and (max-width: 640px) {
+  .main {
+    margin: 0;
+    padding: 0;
+}
+
+
+.h1 {
+  height: 100%;
+  flex-shrink: 0;
+  background: linear-gradient(180deg, #FFECD5 0%, rgba(255, 244, 231, 0.80) 5%, white 100%);
+}
+
+.hometitle {
+  position:relative;
+  margin:0;
+  padding-left: 4%;
+  padding-top: 2%;
+  color: #000;
+  font-family: Inter;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 100;
+  line-height: normal;
+}
+
+  .tree {
+    z-index: -1;
+    position: fixed;
+    bottom: 20%;
+    left: 50%;
+    max-width: 70%;
+    min-width:65%;
+    height: 60%;
+    transform: translateX(-50%) translateY(7%);
+}
+
+.kyotou {
+  position: fixed;
+  bottom:82%;
+  left: 85%;
+  width: 10%;
+  height: 9%;
+}
+
+.sumitomo {
+  position: fixed;
+  bottom:83%;
+  left: 75%;
+  width: 9%;
+  height: 6%;
+}
+
+.lignoFM {
+  position: fixed;
+  top:10vh;
+  left: 25vh;
+  width:14vh;
+  height:7vh;
+}
+
+.about {
+  position: relative;
+  background:rgba(157, 250, 113, 0.74);;
+  width: 8vh;
+  height: 8vh;
+  font-size: 1.5vh;
+  border-radius: 50%;
+  line-height: 1.5vh;
+  transform: translateY(18vh);
+}
+
+.about:hover {
+  opacity:0.7;
+}
+
+.amateur {
+  background:rgba(157, 250, 113, 0.74);;
+  width: 8vh;
+  height: 8vh;
+  font-size: 1.5vh;
+  border-radius: 50%;
+  line-height: 1.5vh;
+  transform: translateX(-3vh) translateY(28vh);
+}
+
+.amateur:hover {
+  opacity:0.7;
+}
+
+.members {
+  background:rgba(157, 250, 113, 0.74);;
+  width: 8vh;
+  height: 8vh;
+  font-size: 1.5vh;
+  border-radius: 50%;
+  line-height: 1.5vh;
+  transform: translateX(5vh) translateY(40vh);
+}
+
+.members:hover {
+  opacity:0.7;
+}
+
+.gallery {
+  background:rgba(157, 250, 113, 0.74);;
+  width: 8vh;
+  height: 8vh;
+  font-size: 1.5vh;
+  border-radius: 50%;
+  line-height: 1.5vh;
+  transform: translateX(3vh) translateY(28vh);
+}
+
+.gallery:hover {
+  opacity:0.7;
+}
+
+.contact {
+  background:rgba(157, 250, 113, 0.74);;
+  width: 8vh;
+  height: 8vh;
+  font-size: 1.5vh;
+  border-radius: 50%;
+  line-height: 1.5vh;
+  transform: translateX(-5vh) translateY(40vh);
+}
+
+.contact:hover {
+  opacity:0.7;
+}
+
+.contactLink {
+  text-decoration: none;
+}
+
+.contactLink, .contactLink:visited {
+  color: #000;
+}
+  
+  .content {
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+  }
+}
