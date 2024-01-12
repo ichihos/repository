@@ -157,7 +157,7 @@
 .h1 {
   height: 100%;
   flex-shrink: 0;
-  background: linear-gradient(180deg, #FFECD5 0%, rgba(255, 244, 231, 0.80) 5%, white 100%);
+  background: linear-gradient(180deg, #FFECD5 0%, rgba(255, 244, 231, 0.80) 50%, white 100%);
 }
 
 .hometitle {
@@ -209,6 +209,7 @@
 }
 
 .about {
+  color: #000;
   position: relative;
   background:rgba(157, 250, 113, 0.74);;
   width: 8vh;
@@ -224,6 +225,7 @@
 }
 
 .amateur {
+  color: #000;
   background:rgba(157, 250, 113, 0.74);;
   width: 8vh;
   height: 8vh;
@@ -238,6 +240,7 @@
 }
 
 .members {
+  color: #000;
   background:rgba(157, 250, 113, 0.74);;
   width: 8vh;
   height: 8vh;
@@ -252,6 +255,7 @@
 }
 
 .gallery {
+  color: #000;
   background:rgba(157, 250, 113, 0.74);;
   width: 8vh;
   height: 8vh;
@@ -266,6 +270,7 @@
 }
 
 .contact {
+  color: #000;
   background:rgba(157, 250, 113, 0.74);;
   width: 8vh;
   height: 8vh;
