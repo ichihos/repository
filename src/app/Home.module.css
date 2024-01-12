@@ -214,7 +214,7 @@
   font-size: 1.8vh;
   border-radius: 50%;
   line-height: 1.8vh;
-  transform:translateX(-4vh) translateY(20vh);
+  transform:translateX(-4vh) translateY(22vh);
 }
 
 .about:hover {
@@ -230,7 +230,7 @@
   font-size: 1.8vh;
   border-radius: 50%;
   line-height: 1.8vh;
-  transform: translateX(-12vh) translateY(28vh);
+  transform: translateX(-13vh) translateY(29vh);
 }
 
 .amateur:hover {
@@ -247,7 +247,7 @@
   font-size: 1.8vh;
   border-radius: 50%;
   line-height: 1.8vh;
-  transform: translateX(8vh) translateY(38vh);
+  transform: translateX(6vh) translateY(40vh);
 }
 
 .members:hover {
@@ -263,7 +263,7 @@
   font-size: 1.8vh;
   border-radius: 50%;
   line-height: 1.8vh;
-  transform: translateX(4vh) translateY(28vh);
+  transform: translateX(5vh) translateY(29vh);
 }
 
 .gallery:hover {
@@ -279,7 +279,7 @@
   font-size: 1.8vh;
   border-radius: 50%;
   line-height: 1.8vh;
-  transform: translateX(-17vh) translateY(38vh);
+  transform: translateX(-14vh) translateY(40vh);
 }
 
 .contact:hover {
